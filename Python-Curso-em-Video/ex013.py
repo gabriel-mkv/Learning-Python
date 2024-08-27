@@ -1,0 +1,7 @@
+print('====== DESAFIO 013 ======')
+salario = float(input('* Informe o salário do funcionário -> R$'))
+porcentagem = int(input('* Digite a porcentagem do aumento -> '))
+aumento = (salario + ((salario * porcentagem) / 100))
+print('-'*27)
+print(f'O salário que o funcionário recebia era R${salario:.2f}')
+print(f'Após o aumento de {porcentagem}%, ele passou a ser R${aumento:.2f}')

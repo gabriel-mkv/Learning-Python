@@ -1,0 +1,5 @@
+print('====== DESAFIO 027 ======\n')
+nome = input(' - Digite seu nome completo: ').title().split()
+print('\n Prazer em te conhecer, %s!' % nome[0])
+print(' Seu último nome é %s, certo?' % nome[-1])
+# print('Seu último nome é %s, certo?' % nome[len(nome) - 1])

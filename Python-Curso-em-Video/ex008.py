@@ -1,0 +1,5 @@
+print('====== DESAFIO 008 ======')
+n = float(input('Insira um valor em metros -> '))
+print(f'Valor em milímetros : {n * 1000} mm \nValor em centímetros : {n * 100} cm')
+print(f'Valor em decímetros : {n * 10} dm \nValor em decâmetros : {n / 10} dam')
+print(f'Valor em hectômetros : {n / 100} hm \nValor em quilômetros : {n / 1000} km')

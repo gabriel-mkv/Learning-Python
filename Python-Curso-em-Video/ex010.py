@@ -1,0 +1,7 @@
+print('====== DESAFIO 010 ======')
+valor = float(input('Digite o quanto possui de dinheiro -> R$'))
+dolar = (valor / 4.99)
+euro = (valor / 5.43)
+print('COTAÇÃO :\nUS$1,00 = R$4,99\n€1,00 = R$5,43')
+print(f'Você pode comprar US${dolar:.2f}')
+print(f'Você pode comprar €{euro:.2f}')

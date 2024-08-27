@@ -1,0 +1,5 @@
+print('====== DESAFIO 015 ======')
+dias = int(input('Quantos dias o carro foi alugado? '))
+km = float(input('Quantos Km foram percorridos com ele? '))
+valor = (dias * 60) + (km * 0.15)
+print(f'O valor a ser pago é R${valor:.2f}')

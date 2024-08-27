@@ -1,0 +1,7 @@
+print('====== DESAFIO 022 ======\n')
+nome = input('Informe seu nome completo: ').strip()
+fatiado = nome.split()
+print('\nMAIÚSCULO ->', nome.upper())
+print('MINÚSCULO ->', nome.lower())
+print('QTD DE LETRAS ->', (len(nome) - nome.count(' ')))
+print(f'QTD DE LETRAS DO NOME {fatiado[0].upper()} ->', len(fatiado[0]))

@@ -1,0 +1,7 @@
+print('====== DESAFIO 012 ======')
+preco = float(input('Informe o preço do produto -> R$'))
+porcentagem = int(input('Digite a porcentagem do desconto -> '))
+desconto = (preco - ((preco * porcentagem) / 100))
+print('-'*30)
+print(f'O valor do produto sem desconto é R${preco:.2f}')
+print(f'Com o desconto de {porcentagem}%, o produto sai a R${desconto:.2f}')

@@ -1,0 +1,8 @@
+print('====== DESAFIO 009 ======')
+n = int(input('Informe um número -> '))
+print(' -----  TABUADA  -----')
+print(f' {n:>7} * 0 = 0 \n {n:>7} * 1 = {n} \n {n:>7} * 2 = {n * 2}')
+print(f' {n:>7} * 3 = {n * 3} \n {n:>7} * 4 = {n * 4}')
+print(f' {n:>7} * 5 = {n * 5} \n {n:>7} * 6 = {n * 6}')
+print(f' {n:>7} * 7 = {n * 7} \n {n:>7} * 8 = {n * 8}')
+print(f' {n:>7} * 9 = {n * 9} \n {n:>7} * 10 = {n * 10}')

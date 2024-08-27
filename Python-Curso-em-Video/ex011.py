@@ -1,0 +1,7 @@
+print('====== DESAFIO 011 ======')
+largura = float(input('Informe a largura da parede (em metros) -> '))
+altura = float(input('Informe a altura da parede (em metros) -> '))
+area = (largura * altura)
+tinta = (area / 2)
+print(f'Dimensões : {largura}x{altura} \nÁrea da parede : {area:.2f} m²')
+print(f'Quantidade de tinta necessária para pintá-la : {tinta:.2f}l')

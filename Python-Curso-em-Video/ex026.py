@@ -1,0 +1,5 @@
+print('====== DESAFIO 026 ======\n')
+frase = input(' - Digite uma frase: ').strip().lower()
+print(f'\nA letra A apareceu {frase.count('a')} vez(es) na frase.')
+print(f'Sua primeira aparição foi na posição {frase.index('a') + 1}.')
+print(f'Sua última aparição foi na posição {frase.rfind('a') + 1}.')

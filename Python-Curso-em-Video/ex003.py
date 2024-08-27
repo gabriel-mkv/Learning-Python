@@ -1,0 +1,5 @@
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+soma = (n1 + n2)
+subtracao = (n1 - n2)
+print(f'\033[1;35mA soma e a subtração dos número {n1} e {n2}, respectivamente, é {soma} e {subtracao}.\033[m')
